@@ -18,13 +18,14 @@ class AppLocalizations {
 
     List<dynamic> jsonData = json.decode(
       await DefaultAssetBundle.of(context).loadString(
-          'packages/flutter_hotel_booking_ui/language/lang/language_text.json'),
+          'lib/language/lang/language_text.json'),
     );
 
     jsonData.forEach((value) {
       if (value is Map && value['text_id'] != null) {
         Map<String, String> texts = {};
         texts['text_id'] = value['text_id'] ?? '';
+        texts['es'] = value['es'] ?? '';
         texts['en'] = value['en'] ?? '';
         texts['fr'] = value['fr'] ?? '';
         texts['ar'] = value['ar'] ?? '';
@@ -70,7 +71,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) {
-    return ['en', 'fr', 'ar'].contains(locale.languageCode);
+    return ['es','en', 'fr', 'ar'].contains(locale.languageCode);
   }
 
   @override

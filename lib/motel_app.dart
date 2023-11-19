@@ -78,7 +78,6 @@ class _MotelAppState extends State<MotelApp> {
   void _setFirstTimeSomeData(BuildContext context, ThemeData theme) {
     applicationcontext = context;
     _setStatusBarNavigationBarTheme(theme);
-    //we call some theme basic data set in app like color, font, theme mode, language
     context
         .read<ThemeProvider>()
         .checkAndSetThemeMode(MediaQuery.of(context).platformBrightness);

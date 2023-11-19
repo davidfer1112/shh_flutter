@@ -36,7 +36,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
 
     pageViewModelData.add(PageViewData(
       titleText: 'best_travelling_all_time',
-      subText: 'find_deals_for_any',
+      subText: 'discover_budget_friendly_spaces',
       assetsImage: Localfiles.introduction3,
     ));
 

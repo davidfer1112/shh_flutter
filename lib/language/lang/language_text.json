@@ -1,7 +1,7 @@
 [
   {
     "text_id": "best_hotel_deals",
-    "es": "Las mejores ofertas de hoteles para sus vacaciones",
+    "es": "Los mejores espacios de descaso compartido",
     "en": "Best hotel deals for your holiday",
     "fr": "Meilleures offres d'hôtels pour vos vacances",
     "ar": "أفضل عروض الفنادق لقضاء عطلتك",
@@ -25,7 +25,7 @@
   },
   {
     "text_id": "plan_your_trips",
-    "es": "Planifica tus viajes",
+    "es": "Confianza y seguridad",
     "en": "Plan your trips",
     "fr": "Planifiez vos voyages",
     "ar": "خطط لرحلاتك",
@@ -33,7 +33,7 @@
   },
   {
     "text_id": "book_one_of_your",
-    "es": "reserve uno de sus hoteles únicos para\nescapar de lo ordinario",
+    "es": "Tu seguridad es nuestra prioridad número uno. \nGarantiza una experiencia de alquiler de espacios compartidos confiable y sin preocupaciones.",
     "en": "book one of your unique hotel to\nescape the ordinary",
     "fr": "réservez l'un de vos hôtels uniques pour\n néchapper à l'ordinaire",
     "ar": "احجز أحد فنادقك الفريدة \n لتتخطى المألوف",
@@ -41,15 +41,23 @@
   },
   {
     "text_id": "find_best_deals",
-    "es": "Encuentra las mejores ofertas",
+    "es": "Recarga Tu Energía",
     "en": "Find best deals",
     "fr": "Trouvez les meilleures offres",
     "ar": "البحث عن أفضل الصفقات",
     "ja": "最高のお得な情報を見つける"
   },
   {
+    "text_id": "discover_budget_friendly_spaces",
+    "es": "Descubre espacios de descanso compartido que se adaptan a tu presupuesto de estudiante. Con nosotros, encontrar la relajación que necesitas no romperá el banco.",
+    "en": "Discover budget-friendly shared rest spaces tailored to your student budget. With us, finding the relaxation you need won't break the bank.",
+    "fr": "Découvrez des espaces de repos partagés économiques adaptés à votre budget d'étudiant. Avec nous, trouver la détente dont vous avez besoin ne coûtera pas une fortune.",
+    "ar": "اكتشف أماكن الراحة المشتركة التي تتناسب مع ميزانيتك كطالب. معنا، العثور على الاسترخاء الذي تحتاجه لن يكلفك الكثير.",
+    "ja": "学生の予算に合った手頃な価格の共有休息スペースを見つけてください。私たちと一緒に、必要なリラックスを見つけることは予算を超えません。"
+  },
+  {
     "text_id": "find_deals_for_any",
-    "es": "Encuentra ofertas para cualquier temporada, desde acogedoras\n casas de campo hasta pisos de la ciudad",
+    "es": "Encuentra tu oasis de descanso compartido con nosotros. \nDesconéctate del estrés universitario y descansa en espacios acogedores.",
     "en": "Find deals for any season from cosy\ncountry homes to city flats",
     "fr": "Trouvez des offres pour toutes les saisons, des maisons de campagne \n confortables aux appartements en ville",
     "ar": "اعثر على صفقات لأي موسم من المنازل الريفية المريحة \n إلى شقق المدينة",
@@ -57,7 +65,7 @@
   },
   {
     "text_id": "best_travelling_all_time",
-    "es": "Mejor viaje de todos los tiempos",
+    "es": "Descanso que Cabe en tu Bolsillo",
     "en": "Best travelling all time",
     "fr": "Meilleur voyage de tous les temps",
     "ar": "أفضل السفر طوال الوقت",
@@ -249,7 +257,7 @@
   },
   {
     "text_id": "motel",
-    "es": "Motel",
+    "es": "SHH!",
     "en": "Motel",
     "fr": "Motel",
     "ar": "فندق صغير",

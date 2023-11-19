@@ -37,6 +37,7 @@ class AppTheme {
       isLightMode ? Color(0xFFADADAD) : Color(0xFF6D6D6D);
 
   static Color get whiteColor => Color(0xFFFFFFFF);
+  static Color get blackColor => Color(0xFF000000);
   static Color get backColor => Color(0xFF262626);
 
   static Color get fontcolor =>
