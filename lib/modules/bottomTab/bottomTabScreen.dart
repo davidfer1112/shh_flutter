@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 
-import '../explore/homeExploreScreen.dart';
+import '../explore/home_explore_screen.dart';
 import '../myTrips/myTripsScreen.dart';
 import '../profile/profileScreen.dart';
 import 'components/tabButtonUI.dart';

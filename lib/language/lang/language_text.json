@@ -297,11 +297,35 @@
   },
   {
     "text_id": "cape Town",
-    "es": "Ciudad del Cabo",
-    "en": "Cape Town",
+    "es": "Bogotá",
+    "en": "Bogotá",
     "fr": "Le Cap",
     "ar": "كيب تاون",
     "ja": "ケープタウン"
+  },  
+  {
+    "text_id": "descBogota",
+    "es": "La Atenas Sudamericana",
+    "en": "The South American Athens",
+    "fr": "L'Athènes sud-américaine",
+    "ar": "أثينا جنوب أمريكا",
+    "ja": "南アメリカのアテネ"
+  },
+  {
+    "text_id": "descCali",
+    "es": "La Sucursal del Cielo",
+    "en": "The Branch of Heaven",
+    "fr": "La Succursale du Ciel",
+    "ar": "فرع السماء",
+    "ja": "天国の支店"
+  },
+  {
+    "text_id": "descMedellin",
+    "es": "La Ciudad de la Eterna Primavera",
+    "en": "The City of Eternal Spring",
+    "fr": "La Ville du Printemps Éternel",
+    "ar": "مدينة الربيع الأبدي",
+    "ja": "永遠の春の町"
   },
   {
     "text_id": "five_star",
@@ -312,8 +336,24 @@
     "ja": "並外れた5つ星の\n屋外アクティビティ"
   },
   {
+    "text_id": "view_cali",
+    "es": "Cali",
+    "en": "View Cali",
+    "fr": "Voir Cali",
+    "ar": "عرض كالي",
+    "ja": "カリを見る"
+  },
+  {
+    "text_id": "view_medellin",
+    "es": "Medellín",
+    "en": "View Medellín",
+    "fr": "Voir Medellín",
+    "ar": "عرض ميديين",
+    "ja": "メデジンを見る"
+  },
+  {
     "text_id": "view_hotel",
-    "es": "Ver hotel",
+    "es": "Ver",
     "en": "View Hotel",
     "fr": "Voir l'hôtel",
     "ar": "عرض الفندق",
@@ -337,7 +377,7 @@
   },
   {
     "text_id": "popular_destination",
-    "es": "Destino popular",
+    "es": "Popular",
     "en": "Popular Destination",
     "fr": "Destination populaire",
     "ar": "الوجهات المشهورة",
@@ -345,7 +385,7 @@
   },
   {
     "text_id": "best_deal",
-    "es": "Mejor oferta",
+    "es": "Mejores ofertas",
     "en": "Best Deals",
     "fr": "Meilleures affaires",
     "ar": "افضل العروض",
@@ -361,7 +401,7 @@
   },
   {
     "text_id": "km_to_city",
-    "es": "km a la ciudad",
+    "es": "Km de la Universidad",
     "en": "km to city",
     "fr": "km de la ville",
     "ar": "كم للمدينة",
@@ -369,7 +409,7 @@
   },
   {
     "text_id": "per_night",
-    "es": "por noche",
+    "es": "por hora",
     "en": "/per night",
     "fr": "/par nuit",
     "ar": "/لليلة الواحدة",
