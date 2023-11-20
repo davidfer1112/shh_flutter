@@ -84,7 +84,8 @@ class _LoignScreenState extends State<LoginScreen> {
                       padding:EdgeInsets.only(left: 24, right: 24, bottom: 16),
                       buttonText: AppLocalizations(context).of("login"),
                       onTap: (){
-                        if(allValidation()) Scaffold();
+                        if(allValidation())
+                          NavigationServices(context).gotoBottomTabScreen();
                       },
                     )
                   ],

@@ -1,3 +1,4 @@
+import 'package:app/modules/bottomTab/bottomTabScreen.dart';
 import 'package:app/modules/login/sign_up_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:app/routes/routes.dart';
@@ -42,6 +43,10 @@ class NavigationServices {
 
   Future<dynamic> gotoSingUpScreen() async{
     return await _pushMaterialPageRoute(SingUpScreen());
+  }
+
+  Future<dynamic> gotoBottomTabScreen() async{
+    return await _pushMaterialPageRoute(BottomTabScreen());
   }
 
 }

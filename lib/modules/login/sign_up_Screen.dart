@@ -107,7 +107,8 @@ class _SingUpScreenState extends State<SingUpScreen>{
                   padding:EdgeInsets.only(left: 24, right: 24, bottom: 16),
                   buttonText: AppLocalizations(context).of("sign_up"),
                   onTap: (){
-                    if(allValidation()) Scaffold();
+                    if(allValidation())
+                      NavigationServices(context).gotoBottomTabScreen();;
                   },
                 ),
                 Padding(
