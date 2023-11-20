@@ -20,11 +20,11 @@ class HotelListViewPage extends StatelessWidget {
 
   const HotelListViewPage(
       {Key? key,
-        required this.hotelData,
-        required this.animationController,
-        required this.animation,
-        required this.callback,
-        this.isShowDate = false})
+      required this.hotelData,
+      required this.animationController,
+      required this.animation,
+      required this.callback,
+      this.isShowDate = false})
       : super(key: key);
 
   @override
@@ -36,7 +36,6 @@ class HotelListViewPage extends StatelessWidget {
         padding: EdgeInsets.only(left: 24, right: 24, top: 8, bottom: 16),
         child: CommonCard(
           color: AppTheme.backgroundColor,
-          readius: 18,
           child: ClipRRect(
             //   borderRadius: BorderRadius.all(Radius.circular(0.0)),
             child: AspectRatio(
@@ -67,9 +66,9 @@ class HotelListViewPage extends StatelessWidget {
                                 maxLines: 2,
                                 textAlign: TextAlign.left,
                                 style:
-                                TextStyles(context).getBoldStyle().copyWith(
-                                  fontSize: 16,
-                                ),
+                                    TextStyles(context).getBoldStyle().copyWith(
+                                          fontSize: 16,
+                                        ),
                                 overflow: TextOverflow.ellipsis,
                               ),
                               Text(
@@ -77,8 +76,8 @@ class HotelListViewPage extends StatelessWidget {
                                 style: TextStyles(context)
                                     .getDescriptionStyle()
                                     .copyWith(
-                                  fontSize: 14,
-                                ),
+                                      fontSize: 14,
+                                    ),
                               ),
                               Expanded(
                                 child: Row(
@@ -87,13 +86,13 @@ class HotelListViewPage extends StatelessWidget {
                                     Expanded(
                                       child: Column(
                                         mainAxisAlignment:
-                                        MainAxisAlignment.end,
+                                            MainAxisAlignment.end,
                                         crossAxisAlignment:
-                                        CrossAxisAlignment.start,
+                                            CrossAxisAlignment.start,
                                         children: <Widget>[
                                           Row(
                                             crossAxisAlignment:
-                                            CrossAxisAlignment.center,
+                                                CrossAxisAlignment.center,
                                             children: <Widget>[
                                               Icon(
                                                 FontAwesomeIcons.mapMarkerAlt,
@@ -107,20 +106,20 @@ class HotelListViewPage extends StatelessWidget {
                                                 style: TextStyles(context)
                                                     .getDescriptionStyle()
                                                     .copyWith(
-                                                  fontSize: 14,
-                                                ),
+                                                      fontSize: 14,
+                                                    ),
                                               ),
                                               Expanded(
                                                 child: Text(
                                                   AppLocalizations(context)
                                                       .of("km_to_city"),
                                                   overflow:
-                                                  TextOverflow.ellipsis,
+                                                      TextOverflow.ellipsis,
                                                   style: TextStyles(context)
                                                       .getDescriptionStyle()
                                                       .copyWith(
-                                                    fontSize: 14,
-                                                  ),
+                                                        fontSize: 14,
+                                                      ),
                                                 ),
                                               ),
                                             ],
@@ -132,12 +131,12 @@ class HotelListViewPage extends StatelessWidget {
                                     FittedBox(
                                       child: Padding(
                                         padding:
-                                        const EdgeInsets.only(right: 8),
+                                            const EdgeInsets.only(right: 8),
                                         child: Column(
                                           mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                              MainAxisAlignment.center,
                                           crossAxisAlignment:
-                                          CrossAxisAlignment.end,
+                                              CrossAxisAlignment.end,
                                           children: <Widget>[
                                             Text(
                                               "\$${hotelData.perNight}",
@@ -149,10 +148,10 @@ class HotelListViewPage extends StatelessWidget {
                                             Padding(
                                               padding: EdgeInsets.only(
                                                   top: context
-                                                      .read<
-                                                      ThemeProvider>()
-                                                      .languageType ==
-                                                      LanguageType.ar
+                                                              .read<
+                                                                  ThemeProvider>()
+                                                              .languageType ==
+                                                          LanguageType.ar
                                                       ? 2.0
                                                       : 0.0),
                                               child: Text(
@@ -161,8 +160,8 @@ class HotelListViewPage extends StatelessWidget {
                                                 style: TextStyles(context)
                                                     .getDescriptionStyle()
                                                     .copyWith(
-                                                  fontSize: 14,
-                                                ),
+                                                      fontSize: 14,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -183,7 +182,7 @@ class HotelListViewPage extends StatelessWidget {
                     child: InkWell(
                       highlightColor: Colors.transparent,
                       splashColor:
-                      Theme.of(context).primaryColor.withOpacity(0.1),
+                          Theme.of(context).primaryColor.withOpacity(0.1),
                       onTap: () {
                         try {
                           callback();

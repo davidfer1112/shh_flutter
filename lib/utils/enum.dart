@@ -14,5 +14,5 @@ enum ColorType {
   BilobaFlower,
 }
 
-enum LanguageType {es, en, fr, ar, ja }
+enum LanguageType { en, fr, ar, ja }
 

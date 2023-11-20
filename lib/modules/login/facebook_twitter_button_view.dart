@@ -1,64 +1,61 @@
-import 'package:app/widgets/common_button.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:app/widgets/common_button.dart';
 
+class FacebookTwitterButtonView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return _fTButtonUI();
+  }
 
-class FaceBookTwitterButtonView extends StatelessWidget{
-
-    const FaceBookTwitterButtonView({Key? key}) : super(key: key);
-
-    @override
-    Widget build(BuildContext context){
-      return Container(
-        child: Row(
-          children: [
-            SizedBox(
-              width: 16,
-            ),
-            Expanded(
-              child: CommonButton(
-                padding: EdgeInsets.zero,
-                backgroundColor: Color(0x0FF3C5799),
-                buttonTextWidget: _buttonTextUi(),
-              )
-            ),
-            SizedBox(
-              width: 16,
-            ),
-            Expanded(
-                child: CommonButton(
-                  padding: EdgeInsets.zero,
-                  backgroundColor: Color(0x0FF05A9F0),
-                  buttonTextWidget: _buttonTextUi(isFacebook: false),
-                )
-            )
-          ],
-        ),
-      );
-    }
-
-    Widget _buttonTextUi({bool isFacebook = true}){
-      return Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Icon(isFacebook ? FontAwesomeIcons.facebookF : FontAwesomeIcons.twitter,
-          size: 20,
-          color: Colors.white,
-          ),
+  Widget _fTButtonUI() {
+    return Container(
+      child: Row(
+        children: <Widget>[
           SizedBox(
             width: 24,
           ),
-          Text(
-            isFacebook ? "Facebook" : "Twitter",
-            style: TextStyle(
-              fontWeight: FontWeight.w500,
-              fontSize: 16,
-              color: Colors.white
+          Expanded(
+            child: CommonButton(
+              padding: EdgeInsets.zero,
+              backgroundColor: Color(0x0FF3C5799),
+              buttonTextWidget: _buttonTextUI(),
             ),
+          ),
+          SizedBox(
+            width: 16,
+          ),
+          Expanded(
+            child: CommonButton(
+              padding: EdgeInsets.zero,
+              backgroundColor: Color(0x0FF05A9F0),
+              buttonTextWidget: _buttonTextUI(isFacebook: false),
+            ),
+          ),
+          SizedBox(
+            width: 24,
           )
         ],
-      );
-    }
+      ),
+    );
+  }
 
+  Widget _buttonTextUI({bool isFacebook = true}) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: <Widget>[
+        Icon(isFacebook ? FontAwesomeIcons.facebookF : FontAwesomeIcons.twitter,
+            size: 20, color: Colors.white),
+        SizedBox(
+          width: 4,
+        ),
+        Text(
+          isFacebook ? "Facebook" : "Twitter",
+          style: TextStyle(
+              fontWeight: FontWeight.w500, fontSize: 16, color: Colors.white),
+        ),
+      ],
+    );
+  }
 }

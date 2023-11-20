@@ -88,9 +88,9 @@ class _CustomDialogState extends State<CustomDialog>
               borderRadius: (widget.topWidget == null)
                   ? null
                   : const BorderRadius.only(
-                bottomLeft: Radius.elliptical(180, 32),
-                bottomRight: Radius.elliptical(180, 32),
-              ),
+                      bottomLeft: Radius.elliptical(180, 32),
+                      bottomRight: Radius.elliptical(180, 32),
+                    ),
             ),
             child: Padding(
               padding: const EdgeInsets.only(top: 8, left: 16, right: 16),
@@ -139,14 +139,14 @@ class _CustomDialogState extends State<CustomDialog>
                       else
                         widget.description != ''
                             ? Text(
-                          widget.description,
-                          textAlign: TextAlign.center,
-                          style: TextStyles(context)
-                              .getRegularStyle()
-                              .copyWith(
-                            fontSize: 14,
-                          ),
-                        )
+                                widget.description,
+                                textAlign: TextAlign.center,
+                                style: TextStyles(context)
+                                    .getRegularStyle()
+                                    .copyWith(
+                                      fontSize: 14,
+                                    ),
+                              )
                             : const SizedBox(),
                       SizedBox(height: widget.description != '' ? 16.0 : 8),
                     ],
@@ -160,11 +160,11 @@ class _CustomDialogState extends State<CustomDialog>
                     widget.actionButtonList!.isNotEmpty)
                   widget.actionButtonList!.length > 2 || widget.isVerical
                       ? Column(
-                    children: getActionButtonsList(context),
-                  )
+                          children: getActionButtonsList(context),
+                        )
                       : Row(
-                    children: getActionButtonsList(context),
-                  )
+                          children: getActionButtonsList(context),
+                        )
                 else
                   const SizedBox(),
               ],
@@ -242,8 +242,8 @@ class CustomDialogActionButton extends StatelessWidget {
         child: Text(
           buttonText,
           style: Theme.of(context).textTheme.button!.copyWith(
-            color: btnColor,
-          ),
+                color: btnColor,
+              ),
         ),
       ),
     );

@@ -33,9 +33,9 @@ class PagePopup extends StatelessWidget {
               AppLocalizations(context).of(imageData.titleText),
               textAlign: TextAlign.center,
               style: TextStyles(context).getTitleStyle().copyWith(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
           ),
         ),

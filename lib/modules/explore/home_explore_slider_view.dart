@@ -32,17 +32,17 @@ class _HomeExploreSliderViewState extends State<HomeExploreSliderView> {
   void initState() {
     pageViewModelData.add(PageViewData(
       titleText: 'cape Town',
-      subText: 'descBogota',
+      subText: 'five_star',
       assetsImage: Localfiles.explore_2,
     ));
     pageViewModelData.add(PageViewData(
-      titleText: 'view_cali',
-      subText: 'descCali',
+      titleText: 'find_best_deals',
+      subText: 'five_star',
       assetsImage: Localfiles.explore_1,
     ));
     pageViewModelData.add(PageViewData(
-      titleText: 'view_medellin',
-      subText: 'descMedellin',
+      titleText: 'find_best_deals',
+      subText: 'five_star',
       assetsImage: Localfiles.explore_3,
     ));
 
@@ -100,14 +100,9 @@ class _HomeExploreSliderViewState extends State<HomeExploreSliderView> {
             right: context.read<ThemeProvider>().languageType == LanguageType.ar
                 ? null
                 : 32,
-            // left: 32,
             left: context.read<ThemeProvider>().languageType == LanguageType.ar
                 ? 32
                 : null,
-            //     right: context.read<ThemeProvider>().languageType ==
-            //             LanguageType.ar
-            //         ? 32
-            //         : null,
             child: SmoothPageIndicator(
                 controller: pageController, // PageController
                 count: 3,

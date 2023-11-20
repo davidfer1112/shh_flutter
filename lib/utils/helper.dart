@@ -11,7 +11,7 @@ import 'package:intl/intl.dart';
 
 import 'package:provider/provider.dart';
 
-class Helper {
+mixin Helper {
   static String getRoomText(RoomData roomData) {
     return "${roomData.numberRoom} ${AppLocalizations(applicationcontext!).of("room_data")} ${roomData.people} ${AppLocalizations(applicationcontext!).of("people_data")}";
   }
@@ -63,31 +63,31 @@ class Helper {
         },
         actionButtonList: isYesOrNoPopup
             ? <Widget>[
-          CustomDialogActionButton(
-            buttonText: "NO",
-            color: Colors.green,
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-          ),
-          CustomDialogActionButton(
-            buttonText: "YES",
-            color: Colors.red,
-            onPressed: () {
-              isOkClick = true;
-              Navigator.of(context).pop();
-            },
-          )
-        ]
+                CustomDialogActionButton(
+                  buttonText: "NO",
+                  color: Colors.green,
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                ),
+                CustomDialogActionButton(
+                  buttonText: "YES",
+                  color: Colors.red,
+                  onPressed: () {
+                    isOkClick = true;
+                    Navigator.of(context).pop();
+                  },
+                )
+              ]
             : <Widget>[
-          CustomDialogActionButton(
-            buttonText: "OK",
-            color: Colors.green,
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-          )
-        ],
+                CustomDialogActionButton(
+                  buttonText: "OK",
+                  color: Colors.green,
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                )
+              ],
       ),
     ).then((_) {
       return isOkClick;

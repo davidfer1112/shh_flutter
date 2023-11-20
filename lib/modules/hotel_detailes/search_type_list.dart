@@ -66,7 +66,7 @@ class _SearchTypeListViewState extends State<SearchTypeListView>
                               decoration: BoxDecoration(
                                 color: Theme.of(context).primaryColor,
                                 borderRadius:
-                                BorderRadius.all(Radius.circular(80.0)),
+                                    BorderRadius.all(Radius.circular(80.0)),
                                 boxShadow: <BoxShadow>[
                                   BoxShadow(
                                     color: Theme.of(context).dividerColor,
@@ -77,7 +77,7 @@ class _SearchTypeListViewState extends State<SearchTypeListView>
                               ),
                               child: ClipRRect(
                                 borderRadius:
-                                BorderRadius.all(Radius.circular(80.0)),
+                                    BorderRadius.all(Radius.circular(80.0)),
                                 child: AspectRatio(
                                   aspectRatio: 1,
                                   child: Image.asset(
@@ -91,7 +91,7 @@ class _SearchTypeListViewState extends State<SearchTypeListView>
                               color: Colors.transparent,
                               child: InkWell(
                                 borderRadius:
-                                BorderRadius.all(Radius.circular(80.0)),
+                                    BorderRadius.all(Radius.circular(80.0)),
                                 highlightColor: Colors.transparent,
                                 splashColor: Theme.of(context)
                                     .primaryColor
@@ -99,7 +99,7 @@ class _SearchTypeListViewState extends State<SearchTypeListView>
                                 onTap: () {
                                   setState(() {
                                     hotelTypeList[index].isSelected =
-                                    !hotelTypeList[index].isSelected;
+                                        !hotelTypeList[index].isSelected;
                                   });
                                 },
                                 child: Opacity(
@@ -110,7 +110,7 @@ class _SearchTypeListViewState extends State<SearchTypeListView>
                                     color: Theme.of(context)
                                         .primaryColor
                                         .withOpacity(0.4),
-                                    readius: 48,
+                                    radius: 48,
                                     child: SizedBox(
                                       height: 80,
                                       width: 80,
@@ -118,7 +118,7 @@ class _SearchTypeListViewState extends State<SearchTypeListView>
                                         child: Icon(
                                           FontAwesomeIcons.check,
                                           color:
-                                          Theme.of(context).backgroundColor,
+                                              Theme.of(context).backgroundColor,
                                         ),
                                       ),
                                     ),

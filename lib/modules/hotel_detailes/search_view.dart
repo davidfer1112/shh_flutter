@@ -13,9 +13,9 @@ class SerchView extends StatelessWidget {
 
   const SerchView(
       {Key? key,
-        required this.hotelInfo,
-        required this.animationController,
-        required this.animation})
+      required this.hotelInfo,
+      required this.animationController,
+      required this.animation})
       : super(key: key);
 
   @override
@@ -29,7 +29,7 @@ class SerchView extends StatelessWidget {
           aspectRatio: 0.75,
           child: CommonCard(
             color: AppTheme.backgroundColor,
-            readius: 16,
+            radius: 16,
             child: ClipRRect(
               borderRadius: BorderRadius.all(Radius.circular(16.0)),
               child: Column(
@@ -56,25 +56,25 @@ class SerchView extends StatelessWidget {
                             Helper.getRoomText(hotelInfo.roomData!),
                             // Helper.getRoomText(hotelInfo.roomData!),
                             style:
-                            TextStyles(context).getRegularStyle().copyWith(
-                              fontWeight: FontWeight.w100,
-                              fontSize: 12,
-                              color: Theme.of(context)
-                                  .disabledColor
-                                  .withOpacity(0.6),
-                            ),
+                                TextStyles(context).getRegularStyle().copyWith(
+                                      fontWeight: FontWeight.w100,
+                                      fontSize: 12,
+                                      color: Theme.of(context)
+                                          .disabledColor
+                                          .withOpacity(0.6),
+                                    ),
                           ),
                           Text(
                             Helper.getLastSearchDate(hotelInfo.date!),
                             // Helper.getRoomText(hotelInfo.roomData!),
                             style:
-                            TextStyles(context).getRegularStyle().copyWith(
-                              fontWeight: FontWeight.w100,
-                              fontSize: 12,
-                              color: Theme.of(context)
-                                  .disabledColor
-                                  .withOpacity(0.6),
-                            ),
+                                TextStyles(context).getRegularStyle().copyWith(
+                                      fontWeight: FontWeight.w100,
+                                      fontSize: 12,
+                                      color: Theme.of(context)
+                                          .disabledColor
+                                          .withOpacity(0.6),
+                                    ),
                           ),
                         ],
                       ),

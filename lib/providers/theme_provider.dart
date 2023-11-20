@@ -27,8 +27,8 @@ class ThemeProvider extends ChangeNotifier {
     checkAndSetThemeMode(_themeModeType == ThemeModeType.light
         ? Brightness.light
         : _themeModeType == ThemeModeType.dark
-        ? Brightness.dark
-        : systembrightness);
+            ? Brightness.dark
+            : systembrightness);
   }
 
 // this func is auto check theme and update them
@@ -79,7 +79,7 @@ class ThemeProvider extends ChangeNotifier {
 
   void checkAndSetColorType() async {
     final ColorType _colorTypeData =
-    await SharedPreferencesKeys().getColorType();
+        await SharedPreferencesKeys().getColorType();
     if (_colorTypeData != colorType) {
       _colorType = _colorTypeData;
       _themeData = AppTheme.getThemeData;
@@ -96,7 +96,7 @@ class ThemeProvider extends ChangeNotifier {
 
   void checkAndSetLanguage() async {
     final LanguageType _languageTypeData =
-    await SharedPreferencesKeys().getLanguageType();
+        await SharedPreferencesKeys().getLanguageType();
     if (_languageTypeData != languageType) {
       _languageType = _languageTypeData;
       _themeData = AppTheme.getThemeData;

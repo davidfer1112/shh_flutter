@@ -76,7 +76,7 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
                 itemCount: 4,
                 // padding on top is only for we need spec for sider
                 padding:
-                EdgeInsets.only(top: sliderImageHieght + 32, bottom: 16),
+                    EdgeInsets.only(top: sliderImageHieght + 32, bottom: 16),
                 scrollDirection: Axis.vertical,
                 itemBuilder: (context, index) {
                   // some list UI
@@ -91,7 +91,7 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
                   if (index == 0) {
                     return TitleView(
                       titleTxt:
-                      AppLocalizations(context).of("popular_destination"),
+                          AppLocalizations(context).of("popular_destination"),
                       subTxt: '',
                       animation: animation,
                       animationController: widget.animationController,
@@ -136,13 +136,13 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
                 height: 80,
                 decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [
-                        Theme.of(context).backgroundColor.withOpacity(0.4),
-                        Theme.of(context).backgroundColor.withOpacity(0.0),
-                      ],
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                    )),
+                  colors: [
+                    Theme.of(context).backgroundColor.withOpacity(0.4),
+                    Theme.of(context).backgroundColor.withOpacity(0.0),
+                  ],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                )),
               ),
             ),
             //   serachUI on Top  Positioned
@@ -176,11 +176,11 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
               Positioned(
                 bottom: 32,
                 left: context.read<ThemeProvider>().languageType ==
-                    LanguageType.ar
+                        LanguageType.ar
                     ? null
                     : 24,
                 right: context.read<ThemeProvider>().languageType ==
-                    LanguageType.ar
+                        LanguageType.ar
                     ? 24
                     : null,
                 child: Opacity(
@@ -188,7 +188,7 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
                   child: CommonButton(
                     onTap: () {
                       if (opecity != 0) {
-                        Scaffold();
+                        NavigationServices(context).gotoHotelHomeScreen();
                       }
                     },
                     buttonTextWidget: Padding(
@@ -249,7 +249,7 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
       list.add(
         HotelListViewPage(
           callback: () {
-            Scaffold();
+            NavigationServices(context).gotoHotelDetailes(f);
           },
           hotelData: f,
           animation: animation,
@@ -269,11 +269,11 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
     return Padding(
       padding: const EdgeInsets.only(left: 24, right: 24, top: 16),
       child: CommonCard(
-        readius: 36,
+        radius: 36,
         child: InkWell(
           borderRadius: BorderRadius.all(Radius.circular(38)),
           onTap: () {
-            Scaffold();
+            NavigationServices(context).gotoSearchScreen();
           },
           child: CommonSearchBar(
             iconData: FontAwesomeIcons.search,
