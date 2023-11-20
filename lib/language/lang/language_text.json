@@ -9,7 +9,7 @@
   },
   {
     "text_id": "already_have_account",
-    "es": "¿Ya tienes una cuenta? Iniciar sesión",
+    "es": "¿Ya tienes una cuenta? Inicia sesión",
     "en": "Already have account? Log in",
     "fr": "Vous avez déjà un compte? Connexion",
     "ar": "لديك حساب بالفعل؟ تسجيل الدخول",
@@ -145,7 +145,7 @@
   },
   {
     "text_id": "first_name",
-    "es": "Nombre de pila",
+    "es": "Nombre",
     "en": "First name",
     "fr": "Prénom",
     "ar": "الاسم الأول",
@@ -1201,7 +1201,7 @@
   },
   {
     "text_id": "valid_new_password",
-    "es":"no podemos permitir menos de 6 longitudes de la contraseña, por favor ingrese una nueva contraseña válida",
+    "es":"no podemos permitir menos de 8 longitudes de la contraseña, por favor ingrese una nueva contraseña válida",
     "en": "We cannot allow less than 6 lengths of the password, please enter a valid new password",
     "fr": "Nous ne pouvons pas autoriser moins de 6 longueurs de mot de passe, veuillez entrer un nouveau mot de passe valide",
     "ar": "لا يمكننا السماح بأقل من 6 أطوال لكلمة المرور ، يرجى إدخال كلمة مرور جديدة صالحة",
@@ -1209,7 +1209,7 @@
   },
   {
     "text_id": "valid_password",
-    "es": "no podemos permitir menos de 6 longitudes de la contraseña, por favor ingrese una nueva contraseña válida",
+    "es": "no podemos permitir menos de 8 longitudes de la contraseña, por favor ingrese una nueva contraseña válida",
     "en": "We cannot allow less than 6 lengths of the password, please enter a valid password",
     "fr": "Nous ne pouvons pas autoriser moins de 6 longueurs de mot de passe, veuillez entrer un mot de passe valide",
     "ar": "لا يمكننا السماح بأقل من 6 أطوال لكلمة المرور ، يرجى إدخال كلمة مرور صالحة",
@@ -1240,8 +1240,16 @@
     "ja": "メールを空にすることはできません"
   },
   {
+    "text_id": "invalido",
+    "es": "Ingrese una dirección de correo electrónico válida",
+    "en": "Please enter a valid email address, abc@xyz.com",
+    "fr": "Veuillez entrer une adresse e-mail valide, abc@xyz.com",
+    "ar": "الرجاء إدخال عنوان بريد إلكتروني صالح ، abc@xyz.com",
+    "ja": "有効なメールアドレスabc@xyz.comを入力してください"
+  },
+  {
     "text_id": "enter_valid_email",
-    "ees": "Ingrese una dirección de correo electrónico válida",
+    "es": "Ingrese una dirección de correo electrónico válida",
     "en": "Please enter a valid email address, abc@xyz.com",
     "fr": "Veuillez entrer une adresse e-mail valide, abc@xyz.com",
     "ar": "الرجاء إدخال عنوان بريد إلكتروني صالح ، abc@xyz.com",
