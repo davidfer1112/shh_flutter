@@ -193,7 +193,7 @@
   },
   {
     "text_id": "where_are_you_going",
-    "en": "¿A dónde vas?",
+    "en": "¿dónde quieres descansar?",
     "es": "Where are you going?",
     "fr": "Où vas-tu?",
     "ar": "إلى أين تذهب؟",
@@ -209,7 +209,7 @@
   },
   {
     "text_id": "hotel_data",
-    "en": "Hotel",
+    "en": "Residencia",
     "es": "Hotel",
     "fr": "Hôtel",
     "ar": "الفندق",
@@ -217,7 +217,7 @@
   },
   {
     "text_id": "Backpacker_data",
-    "en": "Mochilero",
+    "en": "Apartamento",
     "es": "Backpacker",
     "fr": "Randonneuse",
     "ar": "الرحال",
@@ -1153,7 +1153,7 @@
   },
   {
     "text_id": "people_data",
-    "en": "Gente",
+    "en": "Personas",
     "es": "People",
     "fr": "Gens",
     "ar": "الناس",

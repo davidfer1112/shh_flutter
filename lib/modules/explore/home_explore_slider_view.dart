@@ -32,17 +32,17 @@ class _HomeExploreSliderViewState extends State<HomeExploreSliderView> {
   void initState() {
     pageViewModelData.add(PageViewData(
       titleText: 'cape Town',
-      subText: 'five_star',
+      subText: 'descBogota',
       assetsImage: Localfiles.explore_2,
     ));
     pageViewModelData.add(PageViewData(
-      titleText: 'find_best_deals',
-      subText: 'five_star',
+      titleText: 'view_cali',
+      subText: 'descCali',
       assetsImage: Localfiles.explore_1,
     ));
     pageViewModelData.add(PageViewData(
-      titleText: 'find_best_deals',
-      subText: 'five_star',
+      titleText: 'view_medellin',
+      subText: 'descMedellin',
       assetsImage: Localfiles.explore_3,
     ));
 

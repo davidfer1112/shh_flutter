@@ -110,27 +110,27 @@ class HotelListData {
   static List<HotelListData> popularList = [
     HotelListData(
       imagePath: Localfiles.popular_1,
-      titleTxt: 'Paris',
+      titleTxt: 'Esstudia',
     ),
     HotelListData(
       imagePath: Localfiles.popular_2,
-      titleTxt: 'Spain',
+      titleTxt: 'City U',
     ),
     HotelListData(
       imagePath: Localfiles.popular_3,
-      titleTxt: 'Vernazza',
+      titleTxt: 'The Spot For Living',
     ),
     HotelListData(
       imagePath: Localfiles.popular_4,
-      titleTxt: 'London',
+      titleTxt: 'LivinnXBogotá',
     ),
     HotelListData(
       imagePath: Localfiles.popular_5,
-      titleTxt: 'Venice',
+      titleTxt: 'Casa Clandestina',
     ),
     HotelListData(
       imagePath: Localfiles.popular_6,
-      titleTxt: 'Diamond Head',
+      titleTxt: 'BOHO U Living',
     ),
   ];
 
@@ -242,84 +242,50 @@ class HotelListData {
       titleTxt: 'Backpacker_data',
       isSelected: false,
     ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_3,
-      titleTxt: 'Resort_data',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_4,
-      titleTxt: 'villa_data',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_5,
-      titleTxt: 'apartment',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_6,
-      titleTxt: 'guest_house',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_7,
-      titleTxt: 'motel',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_8,
-      titleTxt: 'accommodation',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_9,
-      titleTxt: 'Bed_breakfast',
-      isSelected: false,
-    ),
+    
   ];
   static List<HotelListData> lastsSearchesList = [
     HotelListData(
       imagePath: Localfiles.popular_4,
-      titleTxt: 'London',
-      roomData: RoomData(1, 3),
-      date: DateText(12, 22),
-      dateTxt: '12 - 22 Dec',
+      titleTxt: 'LivinnXBogotá',
+      roomData: RoomData(1, 2),
+      date: DateText(4, 6),
+      dateTxt: '',
     ),
     HotelListData(
       imagePath: Localfiles.popular_1,
-      titleTxt: 'Paris',
-      roomData: RoomData(1, 3),
-      date: DateText(12, 24),
-      dateTxt: '12 - 24 Sep',
+      titleTxt: 'Esstudia',
+      roomData: RoomData(1,2),
+      date: DateText(2, 4),
+      dateTxt: '',
     ),
-    HotelListData(
-      imagePath: Localfiles.city_3,
-      titleTxt: 'New York',
-      roomData: RoomData(1, 3),
-      date: DateText(20, 22),
-      dateTxt: '20 - 22 Sep',
-    ),
-    HotelListData(
-      imagePath: Localfiles.city_4,
-      titleTxt: 'Tokyo',
-      roomData: RoomData(12, 22),
-      date: DateText(12, 22),
-      dateTxt: '12 - 22 Nov',
-    ),
-    HotelListData(
-      imagePath: Localfiles.city_5,
-      titleTxt: 'Shanghai',
-      roomData: RoomData(10, 15),
-      date: DateText(10, 15),
-      dateTxt: '10 - 15 Dec',
-    ),
-    HotelListData(
-      imagePath: Localfiles.city_6,
-      titleTxt: 'Moscow',
-      roomData: RoomData(12, 14),
-      date: DateText(12, 14),
-      dateTxt: '12 - 14 Dec',
-    ),
+    // HotelListData(
+    //   imagePath: Localfiles.city_3,
+    //   titleTxt: 'New York',
+    //   roomData: RoomData(1, 3),
+    //   date: DateText(20, 22),
+    //   dateTxt: '20 - 22 Sep',
+    // ),
+    // HotelListData(
+    //   imagePath: Localfiles.city_4,
+    //   titleTxt: 'Tokyo',
+    //   roomData: RoomData(12, 22),
+    //   date: DateText(12, 22),
+    //   dateTxt: '12 - 22 Nov',
+    // ),
+    // HotelListData(
+    //   imagePath: Localfiles.city_5,
+    //   titleTxt: 'Shanghai',
+    //   roomData: RoomData(10, 15),
+    //   date: DateText(10, 15),
+    //   dateTxt: '10 - 15 Dec',
+    // ),
+    // HotelListData(
+    //   imagePath: Localfiles.city_6,
+    //   titleTxt: 'Moscow',
+    //   roomData: RoomData(12, 14),
+    //   date: DateText(12, 14),
+    //   dateTxt: '12 - 14 Dec',
+    // ),
   ];
 }

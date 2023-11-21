@@ -139,7 +139,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    AppLocalizations(context).of("raaj_text"),
+                    AppLocalizations(context).of("amanda_text"),
                     style: new TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.w700,

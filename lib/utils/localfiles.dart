@@ -1,7 +1,7 @@
 class Localfiles {
   static const String BaseImageUrl = 'assets/images/';
 
-  static const String appIcon = BaseImageUrl + 'appIcon.png';
+  static const String appIcon = BaseImageUrl + 'icono.jpg';
   static const String avatar1 = BaseImageUrl + 'avatar1.jpg';
   static const String avatar2 = BaseImageUrl + 'avatar2.jpg';
   static const String avatar3 = BaseImageUrl + 'avatar3.jpg';
@@ -37,10 +37,10 @@ class Localfiles {
   static const String hotel_Type_7 = BaseImageUrl + 'hotel_Type_7.jpg';
   static const String hotel_Type_8 = BaseImageUrl + 'hotel_Type_8.jpg';
   static const String hotel_Type_9 = BaseImageUrl + 'hotel_Type_9.jpg';
-  static const String introduction = BaseImageUrl + 'introduction.jpg';
-  static const String introduction1 = BaseImageUrl + 'introduction1.png';
-  static const String introduction2 = BaseImageUrl + 'introduction2.png';
-  static const String introduction3 = BaseImageUrl + 'introduction3.png';
+  static const String introduction = BaseImageUrl + 'introduccion.jpeg';
+  static const String introduction1 = BaseImageUrl + 'introduccion1.png';
+  static const String introduction2 = BaseImageUrl + 'introduccion2.png';
+  static const String introduction3 = BaseImageUrl + 'introduccion3.png';
   static const String inviteImage = BaseImageUrl + 'inviteImage.png';
   static const String mapImage = BaseImageUrl + 'mapImage.png';
   static const String userImage = BaseImageUrl + 'userImage.png';

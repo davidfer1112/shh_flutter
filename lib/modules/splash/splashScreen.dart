@@ -56,8 +56,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
                 Center(
                   child: Container(
-                    width: 60,
-                    height: 60,
+                    width: 100,
+                    height: 100,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(
                         Radius.circular(8.0),
@@ -73,7 +73,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       borderRadius: BorderRadius.all(
                         Radius.circular(8.0),
                       ),
-                      child: Image.asset(Localfiles.appIcon),
+                      child: Image.asset(Localfiles.appIcon, fit: BoxFit.cover),
                     ),
                   ),
                 ),
@@ -81,10 +81,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 16,
                 ),
                 Text(
-                  "Motel",
+                  "SHH!",
                   textAlign: TextAlign.left,
                   style: TextStyles(context).getBoldStyle().copyWith(
-                        fontSize: 24,
+                        fontSize: 45,
                       ),
                 ),
                 SizedBox(
@@ -126,7 +126,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       AppLocalizations(context).of("already_have_account"),
                       textAlign: TextAlign.left,
                       style: TextStyles(context).getDescriptionStyle().copyWith(
-                            color: AppTheme.whiteColor,
+                            color: AppTheme.backColor,
                           ),
                     ),
                   ),
