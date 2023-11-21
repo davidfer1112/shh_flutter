@@ -36,7 +36,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
 
     pageViewModelData.add(PageViewData(
       titleText: 'best_travelling_all_time',
-      subText: 'discover_budget_friendly_spaces',
+      subText: 'find_deals_for_any',
       assetsImage: Localfiles.introduction3,
     ));
 
@@ -97,20 +97,20 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
           ),
           CommonButton(
             padding:
-            const EdgeInsets.only(left: 48, right: 48, bottom: 8, top: 32),
+                const EdgeInsets.only(left: 48, right: 48, bottom: 8, top: 32),
             buttonText: AppLocalizations(context).of("login"),
             onTap: () {
-              Scaffold();
+              NavigationServices(context).gotoLoginScreen();
             },
           ),
           CommonButton(
             padding:
-            const EdgeInsets.only(left: 48, right: 48, bottom: 32, top: 8),
+                const EdgeInsets.only(left: 48, right: 48, bottom: 32, top: 8),
             buttonText: AppLocalizations(context).of("create_account"),
             backgroundColor: AppTheme.backgroundColor,
             textColor: AppTheme.primaryTextColor,
             onTap: () {
-              Scaffold();
+              NavigationServices(context).gotoSignScreen();
             },
           ),
           SizedBox(

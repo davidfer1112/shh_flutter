@@ -42,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Container(
               foregroundDecoration: !appTheme.isLightMode
                   ? BoxDecoration(
-                  color: Theme.of(context).backgroundColor.withOpacity(0.4))
+                      color: Theme.of(context).backgroundColor.withOpacity(0.4))
                   : null,
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
@@ -56,8 +56,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
                 Center(
                   child: Container(
-                    width: 80,
-                    height: 80,
+                    width: 100,
+                    height: 100,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(
                         Radius.circular(8.0),
@@ -73,12 +73,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       borderRadius: BorderRadius.all(
                         Radius.circular(8.0),
                       ),
-                      child: Image.asset(
-                        Localfiles.appIcon,
-                        width: 1000,
-                        height: 1000,
-                        fit: BoxFit.cover,
-                        ),
+                      child: Image.asset(Localfiles.appIcon, fit: BoxFit.cover),
                     ),
                   ),
                 ),
@@ -89,11 +84,11 @@ class _SplashScreenState extends State<SplashScreen> {
                   "SHH!",
                   textAlign: TextAlign.left,
                   style: TextStyles(context).getBoldStyle().copyWith(
-                    fontSize: 50,
-                  ),
+                        fontSize: 45,
+                      ),
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 8,
                 ),
                 AnimatedOpacity(
                   opacity: isLoadText ? 1.0 : 0.0,
@@ -131,8 +126,8 @@ class _SplashScreenState extends State<SplashScreen> {
                       AppLocalizations(context).of("already_have_account"),
                       textAlign: TextAlign.left,
                       style: TextStyles(context).getDescriptionStyle().copyWith(
-                        color: AppTheme.blackColor,
-                      ),
+                            color: AppTheme.backColor,
+                          ),
                     ),
                   ),
                 ),

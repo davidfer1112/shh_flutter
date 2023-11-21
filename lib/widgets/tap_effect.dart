@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class TapEffect extends StatefulWidget {
   const TapEffect(
       {Key? key,
-        this.isClickable = true,
-        required this.onClick,
-        required this.child})
+      this.isClickable = true,
+      required this.onClick,
+      required this.child})
       : super(key: key);
 
   final bool isClickable;

@@ -44,9 +44,9 @@ class CommonButton extends StatelessWidget {
                   Text(
                     buttonText ?? "",
                     style: TextStyles(context).getRegularStyle().copyWith(
-                      color: textColor,
-                      fontSize: 16,
-                    ),
+                          color: textColor,
+                          fontSize: 16,
+                        ),
                   ),
             ),
           ),

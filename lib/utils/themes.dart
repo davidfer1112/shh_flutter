@@ -37,7 +37,6 @@ class AppTheme {
       isLightMode ? Color(0xFFADADAD) : Color(0xFF6D6D6D);
 
   static Color get whiteColor => Color(0xFFFFFFFF);
-  static Color get blackColor => Color(0xFF000000);
   static Color get backColor => Color(0xFF262626);
 
   static Color get fontcolor =>
@@ -191,49 +190,49 @@ class AppTheme {
   }
 
   static get mapCardDecoration => BoxDecoration(
-    color: AppTheme.scaffoldBackgroundColor,
-    borderRadius: BorderRadius.all(Radius.circular(24.0)),
-    boxShadow: <BoxShadow>[
-      BoxShadow(
-          color: Theme.of(applicationcontext!).dividerColor,
-          offset: Offset(4, 4),
-          blurRadius: 8.0),
-    ],
-  );
+        color: AppTheme.scaffoldBackgroundColor,
+        borderRadius: BorderRadius.all(Radius.circular(24.0)),
+        boxShadow: <BoxShadow>[
+          BoxShadow(
+              color: Theme.of(applicationcontext!).dividerColor,
+              offset: Offset(4, 4),
+              blurRadius: 8.0),
+        ],
+      );
   static get buttonDecoration => BoxDecoration(
-    color: AppTheme.primaryColor,
-    borderRadius: BorderRadius.all(Radius.circular(24.0)),
-    boxShadow: <BoxShadow>[
-      BoxShadow(
-        color: Theme.of(applicationcontext!).dividerColor,
-        blurRadius: 8,
-        offset: Offset(4, 4),
-      ),
-    ],
-  );
+        color: AppTheme.primaryColor,
+        borderRadius: BorderRadius.all(Radius.circular(24.0)),
+        boxShadow: <BoxShadow>[
+          BoxShadow(
+            color: Theme.of(applicationcontext!).dividerColor,
+            blurRadius: 8,
+            offset: Offset(4, 4),
+          ),
+        ],
+      );
   static get searchBarDecoration => BoxDecoration(
-    color: AppTheme.scaffoldBackgroundColor,
-    borderRadius: BorderRadius.all(Radius.circular(38)),
-    boxShadow: <BoxShadow>[
-      BoxShadow(
-        color: Theme.of(applicationcontext!).dividerColor,
-        blurRadius: 8,
-        // offset: Offset(4, 4),
-      ),
-    ],
-  );
+        color: AppTheme.scaffoldBackgroundColor,
+        borderRadius: BorderRadius.all(Radius.circular(38)),
+        boxShadow: <BoxShadow>[
+          BoxShadow(
+            color: Theme.of(applicationcontext!).dividerColor,
+            blurRadius: 8,
+            // offset: Offset(4, 4),
+          ),
+        ],
+      );
 
   static get boxDecoration => BoxDecoration(
-    color: AppTheme.scaffoldBackgroundColor,
-    borderRadius: BorderRadius.all(Radius.circular(16.0)),
-    boxShadow: <BoxShadow>[
-      BoxShadow(
-        color: Theme.of(applicationcontext!).dividerColor,
-        //   offset: Offset(2, 2),
-        blurRadius: 8,
-      ),
-    ],
-  );
+        color: AppTheme.scaffoldBackgroundColor,
+        borderRadius: BorderRadius.all(Radius.circular(16.0)),
+        boxShadow: <BoxShadow>[
+          BoxShadow(
+            color: Theme.of(applicationcontext!).dividerColor,
+            //   offset: Offset(2, 2),
+            blurRadius: 8,
+          ),
+        ],
+      );
 }
 
 enum ThemeModeType {
