@@ -186,11 +186,11 @@ class _HomeExploreScreenState extends State<HomeExploreScreen>
                 child: Opacity(
                   opacity: opecity,
                   child: CommonButton(
-                    onTap: () {
-                      if (opecity != 0) {
-                        NavigationServices(context).gotoHotelHomeScreen();
-                      }
-                    },
+                    // onTap: () {
+                    //   if (opecity != 0) {
+                    //     NavigationServices(context).gotoHotelHomeScreen();
+                    //   }
+                    // },
                     buttonTextWidget: Padding(
                       padding: const EdgeInsets.only(
                           left: 24, right: 24, top: 8, bottom: 8),
