@@ -27,9 +27,9 @@ class _HotelDetailesState extends State<HotelDetailes>
     with TickerProviderStateMixin {
   ScrollController scrollController = ScrollController(initialScrollOffset: 0);
   var hoteltext1 =
-      "Featuring a fitness center, Grand Royale Park Hote is located in Sweden, 4.7 km frome National Museum...";
+      "Con un ambiente propicio para el estudio, el Espacio Compartido de Estudio brinda a los estudiantes la oportunidad de liberarse del estrés universitario entre clases. Ubicado en un entorno tranquilo en Bogota, ...";
   var hoteltext2 =
-      "Featuring a fitness center, Grand Royale Park Hote is located in Sweden, 4.7 km frome National Museum a fitness center, Grand Royale Park Hote is located in Sweden, 4.7 km frome National Museum a fitness center, Grand Royale Park Hote is located in Sweden, 4.7 km frome National Museum";
+      "Con un ambiente propicio para el estudio, el Espacio Compartido de Estudio brinda a los estudiantes la oportunidad de liberarse del estrés universitario entre clases. Ubicado en un entorno tranquilo en Bogota, a 4.7 km del Museo Nacional. Este espacio brinda a los estudiantes un ambiente para liberarse del estrés universitario.";
   bool isFav = false;
   bool isReadless = false;
   late AnimationController animationController;
@@ -208,8 +208,8 @@ class _HotelDetailesState extends State<HotelDetailes>
                   child: CommonButton(
                     buttonText: AppLocalizations(context).of("book_now"),
                     onTap: () {
-                      NavigationServices(context)
-                          .gotoRoomBookingScreen(widget.hotelData.titleTxt);
+                      // NavigationServices(context)
+                      //     .gotoRoomBookingScreen(widget.hotelData.titleTxt);
                     },
                   ),
                 ),
@@ -419,9 +419,9 @@ class _HotelDetailesState extends State<HotelDetailes>
                                           buttonText: AppLocalizations(context)
                                               .of("book_now"),
                                           onTap: () {
-                                            NavigationServices(context)
-                                                .gotoRoomBookingScreen(
-                                                    widget.hotelData.titleTxt);
+                                            // NavigationServices(context)
+                                            //     .gotoRoomBookingScreen(
+                                            //         widget.hotelData.titleTxt);
                                           }),
                                     ),
                                   ],
