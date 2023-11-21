@@ -111,14 +111,14 @@ class _BottomTabScreenState extends State<BottomTabScreen>
                   tabClick(BottomBarType.Explore);
                 },
               ),
-              TabButtonUI(
-                icon: FontAwesomeIcons.heart,
-                isSelected: tabType == BottomBarType.Trips,
-                text: AppLocalizations(context).of("trips"),
-                onTap: () {
-                  tabClick(BottomBarType.Trips);
-                },
-              ),
+              // TabButtonUI(
+              //   icon: FontAwesomeIcons.heart,
+              //   isSelected: tabType == BottomBarType.Trips,
+              //   text: AppLocalizations(context).of("trips"),
+              //   onTap: () {
+              //     tabClick(BottomBarType.Trips);
+              //   },
+              // ),
               TabButtonUI(
                 icon: FontAwesomeIcons.user,
                 isSelected: tabType == BottomBarType.Profile,
